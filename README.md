@@ -16,6 +16,7 @@
   <h3>Informacion personal</h3>
   <p>Datos generale: Nací en Cd.Juarez Chihuahua
   	<p>https://github.com/Alan117007
+	<p>https://www.linkedin.com/in/alan-lespron-gutiérrez-51aa4313a
 	<p>alan6lespron@gmail.com
 	<p>Actualmente estudio en el Tecnológico de Monterrey
 	<p>Pasatiempos:Mis pasatiempos favoritos son los videojuegos y los deportes.
