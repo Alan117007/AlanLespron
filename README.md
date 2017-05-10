@@ -29,24 +29,5 @@ Planeo irme de intercambio un año a donde se me dé la oportunidad aun no lo te
 Como es mi primer semestre  no he realizado ningún proyecto que tenga relevancia. </p> 
 </div>
 
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
-     
-</body>
-</html> 
-     
-</body>
+
 </html> 
