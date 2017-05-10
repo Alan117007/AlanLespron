@@ -2,26 +2,8 @@
 <html>
 <head>
 <style>
-body {font-family: "Lato", sans-serif;}
 
-/* Style the tab */
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
 
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
 
 /* Change background color of buttons on hover */
 div.tab button:hover {
