@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
 
-You can use the [editor on GitHub](https://github.com/Alan117007/AlanLespron/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
 
-### Markdown
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
 
-```markdown
-Syntax highlighted code block
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
 
-# Header 1
-## Header 2
-### Header 3
+<p>ALAN LESPRON</p>
 
-- Bulleted
-- List
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Informacion personal')">Informacion personal</button>
+  <button class="tablinks" onclick="openCity(event, 'Information academica ')">Information academica </button>
+  <button class="tablinks" onclick="openCity(event, 'Blog')">Blog</button>
+</div>
 
-1. Numbered
-2. List
+<div id="Informacion personal" class="tabcontent">
+  <h3>Informacion personal</h3>
+  <p>Datos generale: Nací en Cd.Juarez Chihuahua
+  	<p>https://github.com/Alan117007
+	<p>alan6lespron@gmail.com
+	<p>Actualmente estudio en el Tecnológico de Monterrey
+	<p>Pasatiempos:Mis pasatiempos favoritos son los videojuegos y los deportes.
+	<p>Plan de vida personal: Mi plan es trabajar en alguna de las grandes empresas como Google o Microsoft y 	después de tener un poco de experiencia trabajar por mi cuenta.</p>
+</div>
 
-**Bold** and _Italic_ and `Code` text
+<div id="Information academica " class="tabcontent">
+  <h3>Information academica </h3>
+  <p>Actualmente estoy estudiando la carrera de ITC(Ingeniero En Tecnologías computacionales) que se enfoca en el diseño y desarrollo de software. Voy en primer semestre de esta carrera.
+Planeo irme de intercambio un año a donde se me dé la oportunidad aun no lo tengo bien definido. 
+Como es mi primer semestre  no he realizado ningún proyecto que tenga relevancia. </p> 
+</div>
 
-[Link](url) and ![Image](src)
-```
+<div id="Blog" class="tabcontent">
+  <h3>Blog</h3>
+  <p></p>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Alan117007/AlanLespron/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 
