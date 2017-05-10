@@ -5,13 +5,6 @@
 <body>
 
 <p>ALAN LESPRON</p>
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Informacion personal')">Informacion personal</button>
-  <button class="tablinks" onclick="openCity(event, 'Information academica ')">Information academica </button>
-  <button class="tablinks" onclick="openCity(event, 'Blog')">Blog</button>
-</div>
-
 <div id="Informacion personal" class="tabcontent">
   <h3>Informacion personal</h3>
   <p>Datos generale: Nací en Cd.Juarez Chihuahua
